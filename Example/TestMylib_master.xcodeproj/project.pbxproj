@@ -37,7 +37,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* TestMylib_master_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMylib_master_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3FDEF44DB241B71A3BE0A3 /* Pods-TestMylib_master_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMylib_master_Example.release.xcconfig"; path = "Target Support Files/Pods-TestMylib_master_Example/Pods-TestMylib_master_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A2F4D2D72B8D17D887294CD0 /* TestMylib_master.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestMylib_master.podspec; path = ../TestMylib_master.podspec; sourceTree = "<group>"; };
+		A2F4D2D72B8D17D887294CD0 /* TestMylib_master.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestMylib_master.podspec; path = ../TestMylib_master.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DEABFAB3827C736D12821EDC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FAFDD48B62DB558AE98EC780 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -244,7 +244,6 @@
 				"${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftCentrifuge/SwiftCentrifuge.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/TestMylib_master/TestMylib_master.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -253,7 +252,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCentrifuge.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftProtobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TestMylib_master.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

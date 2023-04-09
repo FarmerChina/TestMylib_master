@@ -12,7 +12,13 @@ PODS:
   - SwiftCentrifuge (0.5.5):
     - SwiftProtobuf
   - SwiftProtobuf (1.21.0)
-  - TestMylib_master (0.1.0)
+  - TestMylib_master (0.1.0):
+    - GCDWebServer (~> 3.5.4)
+    - GoogleWebRTC
+    - Mux-Stats-AVPlayer (~> 3.1.0)
+    - Sentry (~> 7.31.3)
+    - SwiftCentrifuge
+    - SwiftProtobuf (~> 1.0)
 
 DEPENDENCIES:
   - GCDWebServer (~> 3.5.4)
@@ -45,8 +51,8 @@ SPEC CHECKSUMS:
   Sentry: 4c9babff9034785067c896fd580b1f7de44da020
   SwiftCentrifuge: 8b765b93b58a22b646eb8eb2ff6f3e8acf1c0480
   SwiftProtobuf: afced68785854575756db965e9da52bbf3dc45e7
-  TestMylib_master: 3ce6efd1efdf321e43899afc7a5453c6ad97d957
+  TestMylib_master: e7ac0530e1047c80bd70f178191592cb6cf56d61
 
-PODFILE CHECKSUM: a5e046273b78fcbc25e8bbae7d0f763449e12925
+PODFILE CHECKSUM: b52c054c39e75c5ae6b421e99087de18a7a0a187
 
 COCOAPODS: 1.8.4

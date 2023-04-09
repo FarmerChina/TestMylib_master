@@ -15,16 +15,16 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/FarmerChina/TestMylib_master.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'TestMylib_master/Classes/**/*'
 
-  s.swift_version = '5.0'
-  s.ios.deployment_target = '14.0'
+#  s.swift_version = '5.0'
+#  s.ios.deployment_target = '14.0'
    
-#   s.static_framework = true
+  s.static_framework = true
   
-   s.frameworks = 'AVFoundation', 'AVKit'
+  s.frameworks = 'AVFoundation', 'AVKit'
   
   s.dependency 'Mux-Stats-AVPlayer', '~> 3.1.0'
   s.dependency 'GCDWebServer', '~> 3.5.4'
