@@ -1,22 +1,9 @@
-#
-# Be sure to run `pod lib lint TestMylib_master.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
+ 
 Pod::Spec.new do |s|
   s.name             = 'TestMylib_master'
   s.version          = '0.1.0'
   s.summary          = 'A short description of TestMylib_master.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+ 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
@@ -31,12 +18,18 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'TestMylib_master/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'TestMylib_master' => ['TestMylib_master/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '5.0'
+  s.ios.deployment_target = '14.0'
+   
+#   s.static_framework = true
+  
+   s.frameworks = 'AVFoundation', 'AVKit'
+  
+  s.dependency 'Mux-Stats-AVPlayer', '~> 3.1.0'
+  s.dependency 'GCDWebServer', '~> 3.5.4'
+  s.dependency 'Sentry', '~> 7.31.3'
+  s.dependency 'GoogleWebRTC'
+  s.dependency  'SwiftCentrifuge'
+  s.dependency  'SwiftProtobuf', '~> 1.0'
 end

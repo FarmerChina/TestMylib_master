@@ -1,0 +1,52 @@
+PODS:
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - GoogleWebRTC (1.1.32000)
+  - Mux-Stats-AVPlayer (3.1.0):
+    - Mux-Stats-Core (~> 4.2)
+  - Mux-Stats-Core (4.4.2)
+  - Sentry (7.31.5):
+    - Sentry/Core (= 7.31.5)
+  - Sentry/Core (7.31.5)
+  - SwiftCentrifuge (0.5.5):
+    - SwiftProtobuf
+  - SwiftProtobuf (1.21.0)
+  - TestMylib_master (0.1.0)
+
+DEPENDENCIES:
+  - GCDWebServer (~> 3.5.4)
+  - GoogleWebRTC
+  - Mux-Stats-AVPlayer (~> 3.1.0)
+  - Sentry (~> 7.31.3)
+  - SwiftCentrifuge
+  - SwiftProtobuf (~> 1.0)
+  - TestMylib_master (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GCDWebServer
+    - GoogleWebRTC
+    - Mux-Stats-AVPlayer
+    - Mux-Stats-Core
+    - Sentry
+    - SwiftCentrifuge
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  TestMylib_master:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  GoogleWebRTC: 4d261187b30512efdb711d21fa961a6adf138717
+  Mux-Stats-AVPlayer: 669b2454e52700623f2ee89397cb77b1885ce600
+  Mux-Stats-Core: d06b1470457f287c4b3aad3b06f9a6c173dfe38f
+  Sentry: 4c9babff9034785067c896fd580b1f7de44da020
+  SwiftCentrifuge: 8b765b93b58a22b646eb8eb2ff6f3e8acf1c0480
+  SwiftProtobuf: afced68785854575756db965e9da52bbf3dc45e7
+  TestMylib_master: 3ce6efd1efdf321e43899afc7a5453c6ad97d957
+
+PODFILE CHECKSUM: a5e046273b78fcbc25e8bbae7d0f763449e12925
+
+COCOAPODS: 1.8.4
